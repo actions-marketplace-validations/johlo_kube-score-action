@@ -1,0 +1,10 @@
+name: kube-score-action
+author: johlo
+description: Github Action for running `kube-score score` on your static k8s manifests.
+
+branding:
+  icon: 'award'
+  color: 'purple'
+runs:
+  using: docker
+  image: Dockerfile
